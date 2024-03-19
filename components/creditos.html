@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel Central </title>
+  <link rel="stylesheet" href="../styles/inicio.css" />
+</head>
+
+<body>
+  <div id="app">
+    <nav>
+      <img src="../assets/" alt="Logo do site" class="logo" />
+
+      <ul>
+        <li>
+          <a href="#" class="active" onclick="abrirPagina('inicio.html')">
+            <ion-icon name="add-circle-outline"></ion-icon>
+            Inicio
+          </a>
+        </li>
+        <li>
+          <a href="/components/pacientes.html"onclick="abrirPagina('pacientes.html')">
+            <ion-icon name="people-outline"></ion-icon>
+            Pacientes
+          </a>
+        </li>
+
+        <li>
+          <a href="/components/relatorios.html"onclick="abrirPagina('relatorios.html')">
+            <ion-icon name="document-text"></ion-icon>
+            Relatórios
+          </a>
+        </li>
+
+        <li>
+        <a href="/components/creditos.html"onclick="abrirPagina('creditos.html')">
+          <ion-icon name="cash-outline"></ion-icon>
+          Créditos
+        </a>
+        </li>
+
+        <li>
+        <a href="/components/produtos.html"onclick="abrirPagina('produtos.html')">
+          <ion-icon name="cube-outline"></ion-icon>
+          Produtos
+        </a>
+        </li>
+
+        <li>
+          <a href="/components/ajustes.html"onclick="abrirPagina('ajustes.html')">
+            <ion-icon name="cog"></ion-icon>
+            Ajustes
+          </a>
+        </li>
+
+      </ul>
+    </nav>
+    <main>
+      <div class="inner">
+        <section class="title-avatar">
+          <h1>Créditos<img src="./assets/pencil.svg" alt="" /></h1>
+          <img alt="avatar" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+
+        </section>
+
+        <section class="filter">
+          <button>
+            <ion-icon name="filter-outline"></ion-icon>
+            <span>Filtrar</span>
+          </button>
+          <div class="input-wrapper">
+            <ion-icon name="search-outline"></ion-icon>
+            <input type="text" placeholder="Busque por cards, assuntos ou responsáveis..." />
+          </div>
+        </section>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+  </script>
+  
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>

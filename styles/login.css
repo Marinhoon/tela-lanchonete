@@ -112,8 +112,8 @@
   input {
     width: 100%;
   
-    background: #ffffff;
-    border: 0.1rem solid #e2e8f0;
+    background: #ffff;
+    border: 0.1rem solid black;
     border-radius: 0.4rem;
   
     padding: 1.6rem 1.2rem;
@@ -166,7 +166,7 @@
     width: 100%;
   
     font-weight: bold;
-    color: #ffffff;
+    color: #ffff;
   
     margin-block: 3.2rem;
   }
