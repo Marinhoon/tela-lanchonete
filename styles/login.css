@@ -33,6 +33,11 @@
   #page {
     height: 100vh;
   }
+
+  .login {
+    width: 100px;
+    height: auto;
+  }
   
   .flex {
     display: flex;
@@ -49,7 +54,7 @@
   
   header img {
     width: 16rem;
-    height: 5.4rem;
+    /* height: 16rem; */
   }
   
   #page > div {
